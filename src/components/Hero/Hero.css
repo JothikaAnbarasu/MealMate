@@ -1,0 +1,42 @@
+.hero {
+  height: max-content;
+  margin-bottom: 120px;
+}
+.hero h1 {
+  font-size: 3.8rem;
+}
+.hero-container {
+  display: flex;
+  justify-content: end;
+  height: 400px;
+  width: 100%;
+  background-color: rgb(253, 242, 233);
+}
+
+.hero-img img {
+  height: 480px;
+  width: 700px;
+  border-radius: 0 0 50% 50%;
+}
+
+.hero-content {
+  padding-left: 160px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.hero-orderNow-btn {
+  border: 1px var(--clr-primary-1) solid;
+  border-radius: 4px;
+  background-color: var(--clr-primary-1);
+  color: white;
+  height: max-content;
+  padding: 8px 14px;
+  font-size: large;
+  text-align: center;
+}
+
+.hero-orderNow-btn:hover {
+  background-color: white;
+  color: var(--clr-primary-1);
+}

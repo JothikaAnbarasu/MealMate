@@ -1,0 +1,35 @@
+.howItWorks {
+  margin-bottom: 80px;
+}
+
+.howItWorks-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.howItWorks-contents {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.howItWorks-contents div {
+  padding: 50px;
+  text-align: center;
+}
+
+.howItWorks-contents h3 {
+  letter-spacing: 0;
+  margin-bottom: 28px;
+}
+
+.howItWorks-contents img {
+  margin-bottom: 28px;
+}
+
+.howItWorks-contents span {
+  color: var(--clr-grey-7);
+  font-weight: bolder;
+  font-size: xx-large;
+}

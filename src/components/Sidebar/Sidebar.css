@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  transition: all 0.3s linear;
+  transform: translate(-100%);
+  z-index: -1;
+  padding: 5%;
+}
+
+.showSidebar {
+  z-index: 1000;
+  transform: translate(0);
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header-cancle-btn svg {
+  font-size: 1.5rem;
+  color: rgb(208, 29, 29);
+  cursor: pointer;
+}
+
+.sidebar-header-cancle-btn svg:hover {
+  color: red;
+}

@@ -1,0 +1,126 @@
+.header-container {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo-wrapper {
+  padding-left: 20px;
+  margin-top: 6px;
+}
+
+.header-menu ul {
+  display: flex;
+}
+
+.header-menu li {
+  padding-right: 38px;
+  font-size: large;
+}
+
+.header-menu li :hover,
+.header-menu li :visited {
+  border-bottom: 3px var(--clr-primary-1) solid;
+}
+
+.header-cart-btns ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header-cart-btns li {
+  padding-right: 20px;
+}
+
+.header-cart-icon {
+  font-size: 2rem;
+  color: black;
+  position: relative;
+  margin-right: 10px;
+  padding-top: 2px;
+}
+
+.header-cart-value {
+  position: absolute;
+  top: -10px;
+  right: -16px;
+  background: var(--clr-primary-1);
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  color: var(--clr-white);
+  padding: 12px;
+}
+
+.login-btn {
+  border: 1px var(--clr-primary-1) solid;
+  border-radius: 4px;
+  background-color: white;
+  color: var(--clr-primary-1);
+  height: max-content;
+  padding: 8px 14px;
+  font-size: large;
+}
+
+.signUp-btn {
+  border: none;
+  border-radius: 4px;
+  background-color: var(--clr-primary-1);
+  color: white;
+  height: max-content;
+  padding: 8px 14px;
+  font-size: large;
+}
+
+.login-btn:hover {
+  background-color: var(--clr-grey-10);
+}
+
+.signUp-btn:hover {
+  background-color: rgb(204, 148, 45);
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 794px) {
+  .header-menu {
+    display: none;
+  }
+
+  .header-cart-btns {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: inline;
+    background: transparent;
+    border: transparent;
+    color: var(--clr-primary-5);
+    cursor: pointer;
+    margin-right: 15px;
+  }
+
+  .nav-toggle svg {
+    font-size: 2rem;
+  }
+
+  .nav-toggle svg:hover {
+    color: var(--clr-primary-1);
+  }
+
+  .header-logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+  }
+}
