@@ -11,18 +11,16 @@ import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Sidebar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/meals' element={<Meals />} />
-          <Route path='/cart' element={<Cart />} />
-          <Route path='/about' element={<About />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Header />
+      <Sidebar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/meals' element={<Meals />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='/about' element={<About />} />
+      </Routes>
+    </Router>
   );
 }
 

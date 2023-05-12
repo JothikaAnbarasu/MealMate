@@ -14,17 +14,17 @@ function HowItWorks() {
         <div className="howItWorks-content1">
           <img src={content1} alt='select restraunt img' />
           <h3><span>1</span> Select Restaurant</h3>
-          <p>Browse through our selection of restaurants and pick the one that catches your eye. You can filter by cuisine, location, and more to find the perfect place for your meal.</p>
+          <p>Browse through our selection of restaurants and pick the one that catches your eye.</p>
         </div>
         <div className="howItWorks-content2">
           <img src={content2} alt='select menu img' />
           <h3><span>2</span> Select Menu</h3>
-          <p>Once you've chosen a restaurant, take a look at their menu and select the dishes that make your taste buds tingle. You can customize your order, add special instructions, and more to ensure your meal is just the way you like it.</p>
+          <p>Once you've chosen a restaurant, take a look at their menu and select the dishes that make your taste buds tingle.</p>
         </div>
         <div className="howItWorks-content3">
           <img src={content3} alt='wait for delivery img' />
           <h3><span>3</span> Wait for delivery</h3>
-          <p>Sit back, relax, and wait for your food to arrive. Our delivery partners will bring your meal right to your doorstep, so you can enjoy delicious food without leaving the comfort of your home.</p>
+          <p>Sit back, relax, and wait for your food to arrive. Our delivery partners will bring your meal right to your doorstep.</p>
         </div>
 
       </div>

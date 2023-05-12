@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 import { FaShoppingCart, FaBars } from 'react-icons/fa'
@@ -51,7 +51,7 @@ function Header() {
 
         </div>
       </div>
-      <hr />
+      <hr style={{ width: "100vw" }} />
     </div >
   )
 }

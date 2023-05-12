@@ -1,13 +1,16 @@
 .subscription {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   background-color: rgb(249, 248, 248);
   padding: 50px 70px;
-  height: 500px;
+  height: max-content;
 }
 
 .subscription-img {
   width: 50%;
   padding: 20px;
+  text-align: center;
 }
 .subscription-content {
   width: 50%;
@@ -36,7 +39,6 @@
 }
 
 .subscribe-btn:hover {
-  border: 1px var(--clr-primary-1) solid;
   background-color: white;
   color: var(--clr-primary-1);
 }
@@ -48,8 +50,9 @@
   color: var(--clr-grey-6);
   padding: 8px 54px 8px 14px;
   height: auto;
+  width: auto;
   font-size: large;
-  margin-right: 8px;
+  margin: 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -59,4 +62,20 @@ input::placeholder {
 input:focus {
   outline: none;
   border: none;
+}
+
+@media screen and (max-width: 720px) {
+  .subscription {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .subscription-content h1 {
+    font-size: 1.5rem;
+  }
+  .subscription-content {
+    width: 100%;
+    padding: 0;
+  }
 }

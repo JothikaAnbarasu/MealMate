@@ -7,7 +7,7 @@
 .footer-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 80px 150px;
+  padding: 5% 10%;
   text-align: justify;
 }
 
@@ -15,13 +15,14 @@
 .footer-company,
 .footer-legal {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }
 
 .footer-icons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -68,4 +69,49 @@
 .copyrights-div p {
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-container h5 {
+  color: #f5f5dc;
+}
+
+@media screen and (max-width: 720px) {
+  .footer-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+  }
+  .footer-logo-section {
+    text-align: left;
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    margin-bottom: 20px;
+  }
+
+  .footer-contactUs {
+    text-align: left;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .footer-company {
+    text-align: left;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .footer-legal {
+    text-align: left;
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .footer-contactUs,
+  .footer-company,
+  .footer-legal {
+    justify-content: space-between;
+  }
+
+  .copyrights-div {
+    padding: 1% 10%;
+  }
 }

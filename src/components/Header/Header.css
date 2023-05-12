@@ -1,3 +1,6 @@
+.header {
+  width: 100%;
+}
 .header-container {
   height: 5rem;
   display: flex;

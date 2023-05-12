@@ -21,41 +21,35 @@ function Sidebar() {
           </div>
         </div>
         <div className="sidebar-links-container">
-          <div className="siderbar-menulinks-wrapper">
-            <ul>
-              <li>
-                <Link to='/' onClick={closeSidebar}>Home</Link>
-              </li>
-              <li>
-                <Link to='/about' onClick={closeSidebar}>About</Link>
-              </li>
-              <li>
-                <Link to='/meals' onClick={closeSidebar}>Meals</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="sidebar-cartbtns-wrapper">
-            <ul>
-              <li >
-                <Link to='/cart' className='header-cart-icon' onClick={closeSidebar}> Cart <FaShoppingCart />
-                  <span className='header-cart-value'>0</span></Link>
-              </li>
-              <li>
-                <Link to='/'>
-                  <button className='login-btn' onClick={Login}>Login</button>
-                </Link>
-              </li>
-              <li>
-                <Link to='/'>
-                  <button className='signUp-btn' onClick={SignUp}>Sign Up</button>
-                </Link>
-
-              </li>
-            </ul>
+          <div className="sidebar-links-wrapper">
+            <div >
+              <Link to='/' onClick={closeSidebar}>Home</Link>
+            </div>
+            <div>
+              <Link to='/about' onClick={closeSidebar}>About</Link>
+            </div>
+            <div>
+              <Link to='/meals' onClick={closeSidebar}>Meals</Link>
+            </div>
+            <div  >
+              <Link to='/cart' onClick={closeSidebar}>
+                Cart
+              </Link>
+            </div>
+            <div>
+              <Link to='/'>
+                <button className='login-btn' onClick={Login}>Login</button>
+              </Link>
+            </div>
+            <div>
+              <Link to='/'>
+                <button className='signUp-btn' onClick={SignUp}>Sign Up</button>
+              </Link>
+            </div>
           </div>
         </div>
-      </aside>
-    </div>
+      </aside >
+    </div >
   )
 }
 

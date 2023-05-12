@@ -2,15 +2,17 @@ import React from 'react'
 import { AiOutlinePause } from 'react-icons/ai'
 import { GiShinyApple, GiInfinity } from 'react-icons/gi'
 import { IoLeafOutline } from 'react-icons/io5'
-
 import './Services.css'
+
+
 function Services() {
+
   return (
     <div className='services'>
-      <article className="services-background">
-        <h2>Excellent Services that You Can Count On</h2>
+      <article className="services-background" >
+        <h2 style={{ position: 'relative' }}>Excellent Services that You Can Count On</h2>
 
-        <div className="service-wrapper">
+        <div className="service-wrapper" >
           <div className="service">
             <div className="service-icon"><GiInfinity /></div>
             <h4 className="service-title">Never cook again</h4>

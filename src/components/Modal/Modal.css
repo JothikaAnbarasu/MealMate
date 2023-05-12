@@ -9,6 +9,7 @@
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 999;
+  padding: 10px;
 }
 
 .modal-container {
