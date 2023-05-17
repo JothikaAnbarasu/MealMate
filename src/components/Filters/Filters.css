@@ -1,0 +1,78 @@
+.filters-container {
+  width: 100%;
+  padding: 1.5% 6%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-bottom: 4px; */
+}
+
+.search-input {
+  padding: 6px 10px;
+  width: 100%;
+  font-size: larger;
+  border: 2px var(--clr-grey-6) solid;
+  outline: var(--clr-grey-6);
+  border-radius: 4px;
+}
+
+.search-input:focus {
+  outline: 2px var(--clr-grey-3) solid;
+}
+
+.filter-outline {
+  text-align: center;
+  border: 2px var(--clr-grey-7) solid;
+  border-radius: 22px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > svg {
+    color: var(--clr-grey-5);
+  }
+}
+
+.filters-container div {
+  margin-bottom: 4px;
+}
+
+.filter-outline:hover {
+  background-color: var(--clr-grey-10);
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > svg {
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+  }
+}
+
+.filter-value {
+  background-color: var(--clr-primary-1);
+  color: white;
+  width: 26px;
+  padding: 2px;
+  border-radius: 50%;
+  height: 22px;
+  margin-right: 3px;
+  font-size: small;
+}
+
+select {
+  cursor: pointer;
+}
+
+.filter-selected {
+  background-color: rgb(208, 208, 208);
+}
+
+.filter-selected:hover {
+  background-color: rgb(184, 184, 184);
+}

@@ -1,0 +1,23 @@
+.restaurants-list {
+  width: 100%;
+  padding: 2% 6%;
+}
+
+.restaurants-list-subheading {
+  color: var(--clr-grey-5);
+}
+
+.restaurantCards-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.no-results-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 14px;
+}

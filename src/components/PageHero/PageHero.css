@@ -1,0 +1,13 @@
+.pagehero {
+  height: 100px;
+  width: 100vw;
+  background-color: #f6deca;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: gray;
+}
+
+.pagehero a:hover {
+  color: white;
+}

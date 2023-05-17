@@ -1,0 +1,84 @@
+.menuCard {
+  display: flex;
+  margin: 24px;
+}
+
+.menuCard-content-wrapper {
+  margin-left: 20px;
+}
+
+.menuCard-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  flex-basis: 30%;
+}
+
+.price::before {
+  content: "₹";
+}
+
+.menuCard-price p {
+  margin: 0;
+}
+
+.menuCard-name h5 {
+  margin: 0;
+}
+
+.menuCard-image-wrapper img {
+  border-radius: 8px;
+}
+
+.menuCard-veg-icon {
+  border: 1.8px green solid;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  > svg {
+    color: green;
+  }
+}
+
+.menuCard-non-veg-icon {
+  border: 1.8px rgb(223, 33, 33) solid;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  > svg {
+    color: rgb(223, 33, 33);
+    font-size: small;
+  }
+}
+
+.menuCard-add-to-cart-wrapper {
+  padding-left: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+  .menuCard {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 44px;
+  }
+
+  .menuCard-image-wrapper {
+    margin-bottom: 14px;
+  }
+
+  .menuCard-add-to-cart-wrapper {
+    padding: 0;
+    margin-bottom: 14px;
+  }
+
+  .menuCard-content-wrapper {
+    margin: 0;
+    margin-bottom: 14px;
+  }
+}

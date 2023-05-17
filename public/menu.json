@@ -1,0 +1,496 @@
+{
+  "restaurants": [
+    {
+      "name": "Simply South",
+      "image": "https://b.zmtcdn.com/data/pictures/9/7029/7d599428f2ccbfca68e36fc74c1e330c_o2_featured_v2.jpg?output-format=webp",
+      "veg": false,
+      "fastDelivery": false,
+      "offers": true,
+      "rating": 4.2,
+      "description": "Authentic South Indian cuisine showcasing diverse flavors and traditional favorites.",
+      "menu": [
+        {
+          "name": "Kerala Parotta & Chicken Curry",
+          "price": 220,
+          "rating": 2.8,
+          "vegetarian": false,
+          "cuisine": "South Indian"
+        },
+        {
+          "name": "Hyderabadi Chicken Biryani",
+          "price": 240,
+          "rating": 4.3,
+          "vegetarian": false,
+          "cuisine": "South Indian"
+        },
+        {
+          "name": "Udupi Masala Dosa",
+          "price": 180,
+          "rating": 3.6,
+          "vegetarian": true,
+          "cuisine": "South Indian"
+        },
+        {
+          "name": "Mutton Chukka",
+          "price": 280,
+          "rating": 4.6,
+          "vegetarian": false,
+          "cuisine": "Chettinad"
+        },
+        {
+          "name": "Andhra Style Chicken Curry",
+          "price": 250,
+          "rating": 4.4,
+          "vegetarian": false,
+          "cuisine": "South Indian"
+        },
+        {
+          "name": "Ghee Roast Masala Dosa",
+          "price": 190,
+          "rating": 3.6,
+          "vegetarian": true,
+          "cuisine": "South Indian"
+        }
+      ]
+    },
+    {
+      "name": "KFC",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/7/937/b9e1524a6ac4ffcf085cc410099833a9.jpg?output-format=webp&fit=around|771.75:416.25&crop=771.75:416.25;*,*",
+      "veg": false,
+      "fastDelivery": true,
+      "offers": true,
+      "rating": 4.5,
+      "description": "KFC is a popular fast-food restaurant chain known for its fried chicken. Enjoy a variety of delicious chicken meals and sides.",
+      "menu": [
+        {
+          "name": "Zinger Burger Meal",
+          "price": 250,
+          "rating": 4.2,
+          "vegetarian": false,
+          "cuisine": "Fast food"
+        },
+        {
+          "name": "Bucket of Hot Wings",
+          "price": 450,
+          "rating": 4.4,
+          "vegetarian": false,
+          "cuisine": "Fast food"
+        },
+        {
+          "name": "Veg Zinger Burger Meal",
+          "price": 220,
+          "rating": 3.8,
+          "vegetarian": true,
+          "cuisine": "Fast food"
+        },
+        {
+          "name": "Popcorn Chicken Bucket",
+          "price": 320,
+          "rating": 4.3,
+          "vegetarian": false,
+          "cuisine": "Fast food"
+        },
+        {
+          "name": "Chicken Bucket Meal",
+          "price": 550,
+          "rating": 4.1,
+          "vegetarian": false,
+          "cuisine": "Fast food"
+        },
+        {
+          "name": "Veg Rice Bowlz Meal",
+          "price": 180,
+          "rating": 3.6,
+          "vegetarian": true,
+          "cuisine": "Fast food"
+        }
+      ]
+    },
+
+    {
+      "name": "Dessert Corner",
+      "image": "https://b.zmtcdn.com/data/dish_photos/da4/8b30e94570a48e6d0506b0c960ab6da4.jpg?output-format=webp",
+      "veg": true,
+      "fastDelivery": true,
+      "offers": true,
+      "rating": 4.3,
+      "description": "Dessert Corner is a delightful place to satisfy your sweet tooth. Indulge in a wide range of delectable desserts, including cakes, pastries, ice creams, and more.",
+      "menu": [
+        {
+          "name": "Chocolate Brownie",
+          "price": 150,
+          "rating": 4.6,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Strawberry Cheesecake",
+          "price": 250,
+          "rating": 4.7,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Fruit Tart",
+          "price": 180,
+          "rating": 4.3,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Red Velvet Cupcake",
+          "price": 90,
+          "rating": 4.4,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Chocolate Truffle Cake",
+          "price": 350,
+          "rating": 4.8,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Mango Ice Cream",
+          "price": 80,
+          "rating": 4.1,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        }
+      ]
+    },
+    {
+      "name": "Haldiram's",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/0/550/9361ee4d0e18519da526b87f81f067ae_o2_featured_v2.jpg",
+      "veg": true,
+      "fastDelivery": true,
+      "offers": false,
+      "rating": 4.6,
+      "description": "Haldiram's is a renowned brand known for its wide range of delicious vegetarian snacks and sweets. Enjoy the authentic flavors of India with their samosas, namkeens, sweets, and more.",
+      "menu": [
+        {
+          "name": "Paneer Tikka",
+          "price": 200,
+          "rating": 4.6,
+          "vegetarian": true,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Vegetable Biryani",
+          "price": 180,
+          "rating": 4.2,
+          "vegetarian": true,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Aloo Tikki",
+          "price": 100,
+          "rating": 4.3,
+          "vegetarian": true,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Pav Bhaji",
+          "price": 150,
+          "rating": 4.4,
+          "vegetarian": true,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Chole Bhature",
+          "price": 170,
+          "rating": 4.6,
+          "vegetarian": true,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Masala Dosa",
+          "price": 120,
+          "rating": 4.1,
+          "vegetarian": true,
+          "cuisine": "South Indian"
+        }
+      ]
+    },
+    {
+      "name": "Spice of India",
+      "image": "https://b.zmtcdn.com/data/pictures/6/18797776/8e0b29efd885e025206513119e65cd49_o2_featured_v2.jpg",
+      "veg": false,
+      "fastDelivery": true,
+      "offers": true,
+      "rating": 4.2,
+      "description": "Spice of India brings the authentic flavors of Indian cuisine to your table. Experience a culinary journey with our diverse menu of spicy curries, flavorful biryanis, tandoori delights, and more.",
+      "menu": [
+        {
+          "name": "Butter Chicken",
+          "price": 800,
+          "rating": 4.7,
+          "vegetarian": false,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Chicken Tikka Masala",
+          "price": 900,
+          "rating": 4.8,
+          "vegetarian": false,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Vegetable Fried Rice",
+          "price": 500,
+          "rating": 4.1,
+          "vegetarian": true,
+          "cuisine": "Chinese"
+        },
+        {
+          "name": "Chicken Biryani",
+          "price": 350,
+          "rating": 4.6,
+          "vegetarian": false,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Chicken Tandoori",
+          "price": 700,
+          "rating": 4.8,
+          "vegetarian": false,
+          "cuisine": "Indian"
+        }
+      ]
+    },
+
+    {
+      "name": "Ibaco",
+      "image": "https://b.zmtcdn.com/data/dish_photos/a1c/bbf38de0116545c9f70653aafe9bca1c.jpg?output-format=webp",
+      "veg": false,
+      "fastDelivery": true,
+      "offers": true,
+      "rating": 4.8,
+      "description": "Ibaco is a popular ice cream parlor known for its wide selection of delicious ice cream flavors and customizable sundaes. Treat yourself to the perfect blend of creamy and indulgent desserts.",
+      "menu": [
+        {
+          "name": "Belgian Chocolate Ice Cream",
+          "price": 150,
+          "rating": 4.8,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Butterscotch Ice Cream",
+          "price": 120,
+          "rating": 4.6,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Mango Sorbet",
+          "price": 130,
+          "rating": 4.6,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Strawberry Cheesecake Ice Cream",
+          "price": 170,
+          "rating": 4.9,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        },
+        {
+          "name": "Alphonso Mango Ice Cream",
+          "price": 140,
+          "rating": 4.7,
+          "vegetarian": true,
+          "cuisine": "Dessert"
+        }
+      ]
+    },
+
+    {
+      "name": "The Coffee Shop",
+      "image": "https://b.zmtcdn.com/data/dish_photos/a1e/c9078ccce1a96d5f7ce7f8b86cb96a1e.jpg?output-format=webp",
+      "veg": true,
+      "fastDelivery": true,
+      "offers": true,
+      "rating": 4.6,
+      "description": "The Coffee Shop is a cozy café that serves a range of freshly brewed coffees, aromatic teas, and delectable baked goods. Sit back, relax, and savor the delightful flavors of our beverages and pastries.",
+      "menu": [
+        {
+          "name": "Latte",
+          "price": 150,
+          "rating": 4.7,
+          "vegetarian": true,
+          "cuisine": "Coffee"
+        },
+        {
+          "name": "Cappuccino",
+          "price": 130,
+          "rating": 4.6,
+          "vegetarian": true,
+          "cuisine": "Coffee"
+        },
+        {
+          "name": "Espresso",
+          "price": 100,
+          "rating": 4.3,
+          "vegetarian": true,
+          "cuisine": "Coffee"
+        },
+        {
+          "name": "Mocha",
+          "price": 170,
+          "rating": 4.8,
+          "vegetarian": true,
+          "cuisine": "Coffee"
+        },
+        {
+          "name": "Iced Coffee",
+          "price": 120,
+          "rating": 4.2,
+          "vegetarian": true,
+          "cuisine": "Coffee"
+        }
+      ]
+    },
+
+    {
+      "name": "Burger King",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/8/310078/13de0d13e2ef4676833e405662f2831a_o2_featured_v2.jpg",
+      "veg": false,
+      "fastDelivery": false,
+      "offers": true,
+      "rating": 4.3,
+      "description": "Burger King is a renowned fast-food chain that serves a wide range of delicious burgers, fries, and beverages. Indulge in the flame-grilled goodness and experience the perfect combination of taste and convenience.",
+      "menu": [
+        {
+          "name": "Whopper",
+          "price": 250,
+          "rating": 4.6,
+          "vegetarian": false,
+          "cuisine": "American"
+        },
+        {
+          "name": "Cheeseburger",
+          "price": 180,
+          "rating": 4.3,
+          "vegetarian": false,
+          "cuisine": "American"
+        },
+        {
+          "name": "Bacon King",
+          "price": 320,
+          "rating": 4.8,
+          "vegetarian": false,
+          "cuisine": "American"
+        },
+        {
+          "name": "Veggie Whopper",
+          "price": 220,
+          "rating": 4.2,
+          "vegetarian": true,
+          "cuisine": "American"
+        },
+        {
+          "name": "Chicken Royale",
+          "price": 260,
+          "rating": 4.6,
+          "vegetarian": false,
+          "cuisine": "American"
+        },
+        {
+          "name": "Double Whopper",
+          "price": 350,
+          "rating": 4.7,
+          "vegetarian": false,
+          "cuisine": "American"
+        }
+      ]
+    },
+    {
+      "name": "Foodie's Paradise",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/2/18742342/38a174a219efe8272246b8239b8b54d8_o2_featured_v2.jpg",
+      "veg": false,
+      "fastDelivery": false,
+      "offers": false,
+      "rating": 3.9,
+      "description": "Foodie's Paradise is a haven for food lovers, offering a diverse menu of mouthwatering dishes from various cuisines. Explore a culinary journey with our flavorful creations and satisfy your cravings.",
+      "menu": [
+        {
+          "name": "Veggie Burger",
+          "price": 500,
+          "rating": 4.6,
+          "vegetarian": true,
+          "cuisine": "American"
+        },
+        {
+          "name": "Butter Chicken",
+          "price": 800,
+          "rating": 4.7,
+          "vegetarian": false,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Margherita Pizza",
+          "price": 600,
+          "rating": 4.3,
+          "vegetarian": true,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Chicken Tikka Masala",
+          "price": 900,
+          "rating": 4.8,
+          "vegetarian": false,
+          "cuisine": "Indian"
+        },
+        {
+          "name": "Pad Thai",
+          "price": 750,
+          "rating": 4.2,
+          "vegetarian": false,
+          "cuisine": "Thai"
+        }
+      ]
+    },
+    {
+      "name": "Pizza Palace",
+      "image": "https://b.zmtcdn.com/data/pictures/chains/3/143/cb4822bd0ecf5e677eea7956c6ebe926_o2_featured_v2.jpg?output-format=webp",
+      "veg": false,
+      "fastDelivery": false,
+      "offers": true,
+      "rating": 4.2,
+      "description": "Pizza Palace is your go-to destination for heavenly pizzas crafted with the finest ingredients and flavors. Experience the perfect combination of crispy crusts, savory toppings, and gooey cheese in every bite.",
+      "menu": [
+        {
+          "name": "Margherita Pizza",
+          "price": 600,
+          "rating": 4.3,
+          "vegetarian": true,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Cheeseburger",
+          "price": 550,
+          "rating": 4.4,
+          "vegetarian": false,
+          "cuisine": "American"
+        },
+        {
+          "name": "Spaghetti Carbonara",
+          "price": 850,
+          "rating": 4.6,
+          "vegetarian": false,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Mushroom Risotto",
+          "price": 650,
+          "rating": 4.3,
+          "vegetarian": true,
+          "cuisine": "Italian"
+        }
+      ]
+    }
+  ]
+}

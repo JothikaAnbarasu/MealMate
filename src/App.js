@@ -2,25 +2,32 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Home from './pages/Home/Home';
-import Meals from './pages/Meals/Meals';
-import Cart from './pages/Cart/Cart';
-import About from './pages/About/About';
+import HomePage from './pages/HomePage/HomePage';
+import MealsPage from './pages/MealsPage/MealsPage';
+import CartPage from './pages/CartPage/CartPage';
+import AboutPage from './pages/AboutPage/AboutPage';
 import Sidebar from './components/Sidebar/Sidebar';
+import Footer from './components/Footer/Footer'
+import RestaurantMenuItems from './pages/SingleRestaurantPage/SingleRestaurantPage';
 
 
 function App() {
   return (
-    <Router>
-      <Header />
-      <Sidebar />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/meals' element={<Meals />} />
-        <Route path='/cart' element={<Cart />} />
-        <Route path='/about' element={<About />} />
-      </Routes>
-    </Router>
+    <div className="app">
+      <Router>
+        <Header />
+        <Sidebar />
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/meals' element={<MealsPage />} />
+          <Route path='/meals/:name' element={<RestaurantMenuItems />} />
+          <Route path='/cart' element={<CartPage />} />
+          <Route path='/about' element={<AboutPage />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
+
   );
 }
 

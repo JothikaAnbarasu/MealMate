@@ -1,21 +1,19 @@
 import React from 'react'
-import './Home.css'
+import './HomePage.css'
 import Hero from '../../components/Hero/Hero'
 import HowItWorks from '../../components/HowItWorks/HowItWorks'
 import Services from '../../components/Services/Services'
 import Subscription from '../../components/Subscription/Subscription'
-import Footer from '../../components/Footer/Footer'
 
-function Home() {
+function HomePage() {
   return (
-    <div className='home'>
+    <div className='homePage'>
       <Hero />
       <HowItWorks />
       <Services />
       <Subscription />
-      <Footer />
     </div>
   )
 }
 
-export default Home
+export default HomePage

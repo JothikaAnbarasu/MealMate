@@ -1,0 +1,60 @@
+.singleRestaurantPage {
+  width: 100vw;
+}
+
+.single-restaurant-details {
+  padding: 2% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.single-res-image {
+  margin: 0;
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.single-res-image-wrapper {
+  position: relative;
+  padding: 20px;
+}
+.single-res-rating {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  padding: 12px;
+  border-radius: 14px;
+  font-size: larger;
+}
+
+.single-res-page-menu-container {
+  padding: 2% 10%;
+}
+.single-res-page-menu-heading::first-letter {
+  font-size: 2em;
+  color: var(--clr-primary-1);
+}
+.single-res-page-menu-heading {
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .single-res-image {
+    width: 300px;
+    border-radius: 0;
+  }
+
+  .single-res-rating {
+    font-size: medium;
+    padding: 6px;
+    border-radius: 0;
+  }
+
+  .single-res-image-wrapper {
+    padding: 10px;
+    margin-left: 10px;
+  }
+}

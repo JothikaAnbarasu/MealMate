@@ -1,0 +1,11 @@
+.foodVarieties {
+  width: 100%;
+  padding: 2% 6%;
+}
+
+.foodVarieties-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

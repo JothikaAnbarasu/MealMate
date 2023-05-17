@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import { useNavbarContext } from '../../context/navbar_context'
-import { FaTimesCircle, FaShoppingCart } from 'react-icons/fa'
+import { FaTimesCircle } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 
 
@@ -26,7 +26,7 @@ function Sidebar() {
               <Link to='/' onClick={closeSidebar}>Home</Link>
             </div>
             <div>
-              <Link to='/about' onClick={closeSidebar}>About</Link>
+              <Link to='/about' onClick={closeSidebar}>About Us</Link>
             </div>
             <div>
               <Link to='/meals' onClick={closeSidebar}>Meals</Link>
