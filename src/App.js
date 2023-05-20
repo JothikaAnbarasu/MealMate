@@ -9,7 +9,7 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import Sidebar from './components/Sidebar/Sidebar';
 import Footer from './components/Footer/Footer'
 import RestaurantMenuItems from './pages/SingleRestaurantPage/SingleRestaurantPage';
-
+import PageNotFound from './components/PageNotFound/PageNotFound';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
           <Route path='/meals/:name' element={<RestaurantMenuItems />} />
           <Route path='/cart' element={<CartPage />} />
           <Route path='/about' element={<AboutPage />} />
+          <Route path='*' element={<PageNotFound />} />
         </Routes>
         <Footer />
       </Router>

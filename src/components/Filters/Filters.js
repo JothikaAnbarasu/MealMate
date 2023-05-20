@@ -3,6 +3,7 @@ import './Filters.css'
 import { CiSliderHorizontal } from 'react-icons/ci'
 import { FaTimes } from 'react-icons/fa'
 import { useFilterContext } from '../../context/filter_context'
+import { FaSearch } from 'react-icons/fa'
 
 function Filters() {
 
@@ -25,11 +26,11 @@ function Filters() {
 
       <div className="search-bar">
         <input
-          type='text'
+          type='search'
           name='text'
           value={text}
-          placeholder='search for restaurant & food'
-          className='search-input'
+          placeholder='Search for restaurants'
+          className='search-input '
           onChange={(e) => updateFilters(e.target.name, e.target.value)}
         />
       </div>

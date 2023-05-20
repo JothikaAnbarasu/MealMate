@@ -1,10 +1,15 @@
 .menuCard {
   display: flex;
   margin: 24px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 60%;
+  border-radius: 10px;
 }
 
 .menuCard-content-wrapper {
-  margin-left: 20px;
 }
 
 .menuCard-content-wrapper {
@@ -13,6 +18,7 @@
   align-items: start;
   flex-direction: column;
   flex-basis: 30%;
+  margin-left: 40px;
 }
 
 .price::before {
@@ -54,18 +60,31 @@
 }
 
 .menuCard-add-to-cart-wrapper {
-  padding-left: 60px;
+  padding: 10px;
+  padding-left: 100px;
   display: flex;
   justify-content: center;
-  padding: 10px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1100px) {
+  .menuCard {
+    width: 80%;
+  }
+  .menuCard-add-to-cart-wrapper {
+    padding-left: 20px;
+  }
+  .menuCard-content-wrapper {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .menuCard {
     flex-direction: column;
-    justify-content: start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 44px;
+    width: 90%;
   }
 
   .menuCard-image-wrapper {

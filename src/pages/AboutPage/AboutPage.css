@@ -1,3 +1,66 @@
 .aboutPage {
   width: 100vw;
+  height: 100%;
+}
+
+.about-page-content-container {
+  padding: 5% 10%;
+}
+
+.about-page-title {
+  font-style: italic;
+  font-weight: bolder;
+  padding: 10%;
+  padding-top: 0;
+}
+.about-page-title img {
+  float: right;
+  border-radius: 60px;
+  border: 2px powderblue solid;
+  padding: 10px;
+}
+
+.about-page-service {
+  padding: 5%;
+  background-color: rgb(232, 245, 253);
+  margin-bottom: 20px;
+  border-radius: 60px;
+}
+
+.about-page-service h3 {
+  color: var(--clr-primary-1);
+  margin-bottom: 20px;
+}
+
+.about-page-services-wrapper .about-page-service:nth-child(odd) {
+  margin-right: 8%;
+}
+
+.about-page-services-wrapper .about-page-service:nth-child(even) {
+  margin-left: 8%;
+}
+
+.about-page-footer {
+  font-style: italic;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 500px) {
+  .about-page-title {
+    padding: 0;
+    margin-bottom: 40px;
+
+    > h1 {
+      font-size: 2rem;
+    }
+  }
+
+  .about-page-title img {
+    height: 200px;
+    width: 250px;
+  }
+
+  .about-page-footer h2 {
+    font-size: 1.7rem;
+  }
 }

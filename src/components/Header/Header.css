@@ -57,9 +57,10 @@
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  font-size: 0.75rem;
+  font-size: 0.88rem;
   color: var(--clr-white);
   padding: 12px;
+  font-weight: bold;
 }
 
 .login-btn {

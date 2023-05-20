@@ -63,3 +63,22 @@
 .modal-form-btn {
   width: 100%;
 }
+
+.orderPlacedModal-img img {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+}
+
+.orderPlacedModal-content-wrapper div {
+  margin-bottom: 20px;
+}
+
+.orderPlacedModal-heading h4 {
+  text-align: center;
+}
+
+.orderPlacedModal-description p {
+  font-weight: bold;
+  text-align: center;
+}

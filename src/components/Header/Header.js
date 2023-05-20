@@ -5,10 +5,12 @@ import { FaShoppingCart, FaBars } from 'react-icons/fa'
 import LoginModal from '../Modal/LoginModal';
 import SignUpModal from '../Modal/SignUpModal';
 import { useNavbarContext } from '../../context/navbar_context';
+import { useCartContext } from '../../context/cart_context';
+import logoImg from '../../assets/logoImg.png'
 
 function Header() {
   const { openSidebar, isLoginModalOpen, isSignUpModalOpen, Login, SignUp } = useNavbarContext();
-
+  const { total_items } = useCartContext();
   return (
     <div className='header'>
       {isLoginModalOpen && <LoginModal />}
@@ -16,7 +18,8 @@ function Header() {
       <div className="header-container">
         <div className="header-logo-wrapper">
           <Link to='/'>
-            <h2 className="logo"><span style={{ color: "black" }}>Meal</span><span style={{ color: "rgb(242, 159, 5)" }}>Mate</span></h2>
+            <h2 className="logo">
+              <span style={{ color: "black" }}>Meal</span><span style={{ color: "rgb(242, 159, 5)" }}>Mate</span></h2>
           </Link>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
@@ -39,7 +42,7 @@ function Header() {
           <ul>
             <li style={{ paddingTop: "14px" }}>
               <Link to='/cart' className='header-cart-icon'> <FaShoppingCart />
-                <span className='header-cart-value'>0</span></Link>
+                <span className='header-cart-value'>{total_items}</span></Link>
             </li>
             <li>
               <button className='login-btn' onClick={Login}>Login</button>

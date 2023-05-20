@@ -1,0 +1,15 @@
+.cart-amount-btn {
+  border: none;
+  background-color: white;
+  font-size: larger;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.cart-amount-btn:hover {
+  background-color: var(--clr-grey-10);
+}
+
+.cart-amount {
+  font-size: xx-large;
+}

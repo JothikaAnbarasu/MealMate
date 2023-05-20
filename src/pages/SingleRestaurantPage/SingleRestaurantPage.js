@@ -40,7 +40,7 @@ function SingleRestaurantPage() {
         </div>
         <div className="single-res-page-menucards-wrapper">
           {singleRestaurant.menu && singleRestaurant.menu.map((item, index) => {
-            return (<MenuCard item={item} key={index} />)
+            return (<MenuCard item={item} key={index} restaurantName={name} />)
           })}
         </div>
       </div>

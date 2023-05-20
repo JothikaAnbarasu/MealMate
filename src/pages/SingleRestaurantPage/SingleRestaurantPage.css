@@ -40,6 +40,12 @@
 .single-res-page-menu-heading {
   margin-bottom: 40px;
 }
+.single-res-page-menucards-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 @media screen and (max-width: 600px) {
   .single-res-image {

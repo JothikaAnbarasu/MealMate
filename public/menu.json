@@ -11,6 +11,7 @@
       "menu": [
         {
           "name": "Kerala Parotta & Chicken Curry",
+          "image": "https://b.zmtcdn.com/data/dish_photos/711/3abf1eb64037df285b1fa6c553b87711.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 220,
           "rating": 2.8,
           "vegetarian": false,
@@ -18,6 +19,7 @@
         },
         {
           "name": "Hyderabadi Chicken Biryani",
+          "image": "https://b.zmtcdn.com/data/dish_photos/62f/1e1afdfe543a23eff7bb6b501394962f.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 240,
           "rating": 4.3,
           "vegetarian": false,
@@ -25,6 +27,7 @@
         },
         {
           "name": "Udupi Masala Dosa",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c4d/d8e32e24c4825c7fb570b2fa23abac4d.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 180,
           "rating": 3.6,
           "vegetarian": true,
@@ -32,6 +35,7 @@
         },
         {
           "name": "Mutton Chukka",
+          "image": "https://b.zmtcdn.com/data/dish_photos/273/d743c7218c2f71e21d924a98e1f61273.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 280,
           "rating": 4.6,
           "vegetarian": false,
@@ -39,6 +43,7 @@
         },
         {
           "name": "Andhra Style Chicken Curry",
+          "image": "https://b.zmtcdn.com/data/dish_photos/56d/55f1acbe96a48d1c928e2b28924a956d.png?fit=around|130:130&crop=130:130;*,*",
           "price": 250,
           "rating": 4.4,
           "vegetarian": false,
@@ -46,6 +51,7 @@
         },
         {
           "name": "Ghee Roast Masala Dosa",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c4d/d8e32e24c4825c7fb570b2fa23abac4d.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 190,
           "rating": 3.6,
           "vegetarian": true,
@@ -64,6 +70,7 @@
       "menu": [
         {
           "name": "Zinger Burger Meal",
+          "image": "https://b.zmtcdn.com/data/dish_photos/2cd/554a151953be2415e44e3d561e8742cd.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*",
           "price": 250,
           "rating": 4.2,
           "vegetarian": false,
@@ -71,6 +78,7 @@
         },
         {
           "name": "Bucket of Hot Wings",
+          "image": "https://b.zmtcdn.com/data/dish_photos/479/6e215d110f00aba3c59ce6e67d78c479.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*",
           "price": 450,
           "rating": 4.4,
           "vegetarian": false,
@@ -78,27 +86,31 @@
         },
         {
           "name": "Veg Zinger Burger Meal",
+          "image": "https://b.zmtcdn.com/data/dish_photos/c6e/5d6088b3526e94e3cc6cf749d3a8bc6e.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*",
           "price": 220,
           "rating": 3.8,
           "vegetarian": true,
           "cuisine": "Fast food"
         },
         {
-          "name": "Popcorn Chicken Bucket",
+          "name": "Popcorn Chicken Biryani Bucket",
+          "image": "https://b.zmtcdn.com/data/dish_photos/bdd/725162deeb004cc683f1af5dd3a72bdd.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*",
           "price": 320,
           "rating": 4.3,
           "vegetarian": false,
           "cuisine": "Fast food"
         },
         {
-          "name": "Chicken Bucket Meal",
-          "price": 550,
+          "name": "Hot & Crispy Chicken",
+          "image": "https://b.zmtcdn.com/data/dish_photos/99f/72242c3ef1e98f4a12621216aa3e099f.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*",
+          "price": 250,
           "rating": 4.1,
           "vegetarian": false,
           "cuisine": "Fast food"
         },
         {
           "name": "Veg Rice Bowlz Meal",
+          "image": "https://b.zmtcdn.com/data/dish_photos/651/b4ed59ec4791ecd6e9aab782944e5651.jpg?output-format=webp&fit=around|130:130&crop=130:130;*,*",
           "price": 180,
           "rating": 3.6,
           "vegetarian": true,
@@ -117,35 +129,40 @@
       "description": "Dessert Corner is a delightful place to satisfy your sweet tooth. Indulge in a wide range of delectable desserts, including cakes, pastries, ice creams, and more.",
       "menu": [
         {
-          "name": "Chocolate Brownie",
+          "name": "Walnut Brownie Waffle",
+          "image": "https://b.zmtcdn.com/data/dish_photos/0fd/77bdc40206cc45bd4017cec0ec01b0fd.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 150,
           "rating": 4.6,
           "vegetarian": true,
           "cuisine": "Dessert"
         },
         {
-          "name": "Strawberry Cheesecake",
-          "price": 250,
+          "name": "Strawberry Vannillacake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d6b/2ea4b61941654db944488974590e9d6b.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 450,
           "rating": 4.7,
           "vegetarian": true,
           "cuisine": "Dessert"
         },
         {
-          "name": "Fruit Tart",
+          "name": "Rocky Road",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7bf/4f90c251465dc5acbe5c6a18554b07bf.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 180,
           "rating": 4.3,
           "vegetarian": true,
           "cuisine": "Dessert"
         },
         {
-          "name": "Red Velvet Cupcake",
+          "name": "Red Velvet Mini Pancakes",
+          "image": "https://b.zmtcdn.com/data/dish_photos/85e/5d97d1d3353220e394603c8ebc95f85e.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 90,
           "rating": 4.4,
           "vegetarian": true,
           "cuisine": "Dessert"
         },
         {
-          "name": "Chocolate Truffle Cake",
+          "name": "Chocolate Truffle Pastry",
+          "image": "https://b.zmtcdn.com/data/dish_photos/411/b3972446673e8ff5f0a2f857b8332411.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 350,
           "rating": 4.8,
           "vegetarian": true,
@@ -153,6 +170,7 @@
         },
         {
           "name": "Mango Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/761/3b74fe4713b867e792eaf62d205b4761.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 80,
           "rating": 4.1,
           "vegetarian": true,
@@ -171,6 +189,7 @@
       "menu": [
         {
           "name": "Paneer Tikka",
+          "image": "https://b.zmtcdn.com/data/dish_photos/3d1/fc29a0da7c1135a5600a0f97c431e3d1.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 200,
           "rating": 4.6,
           "vegetarian": true,
@@ -178,34 +197,39 @@
         },
         {
           "name": "Vegetable Biryani",
+          "image": "https://b.zmtcdn.com/data/dish_photos/6e2/60edb90622ef5f20a95dab2ae61a46e2.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 180,
           "rating": 4.2,
           "vegetarian": true,
           "cuisine": "Indian"
         },
         {
-          "name": "Aloo Tikki",
+          "name": "Paneer 65",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d06/670deb6321f9826d4a35ca0e685f8d06.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 100,
           "rating": 4.3,
           "vegetarian": true,
           "cuisine": "Indian"
         },
         {
-          "name": "Pav Bhaji",
+          "name": "Chilli Cheese Toast",
+          "image": "https://b.zmtcdn.com/data/dish_photos/00d/bd41ea029830550862ab9b4110a4400d.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 150,
           "rating": 4.4,
           "vegetarian": true,
           "cuisine": "Indian"
         },
         {
-          "name": "Chole Bhature",
+          "name": "Mushroom Masala",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cc3/eb1c0e19716c90dac474b71861872cc3.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 170,
           "rating": 4.6,
           "vegetarian": true,
           "cuisine": "Indian"
         },
         {
-          "name": "Masala Dosa",
+          "name": "Oninon Rava Dosa",
+          "image": "https://b.zmtcdn.com/data/dish_photos/142/14a2442e40bf4ba66343dc00d37fd142.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 120,
           "rating": 4.1,
           "vegetarian": true,
@@ -223,28 +247,32 @@
       "description": "Spice of India brings the authentic flavors of Indian cuisine to your table. Experience a culinary journey with our diverse menu of spicy curries, flavorful biryanis, tandoori delights, and more.",
       "menu": [
         {
-          "name": "Butter Chicken",
+          "name": "Butter Chicken Masala",
+          "image": "https://b.zmtcdn.com/data/dish_photos/99f/70f8c1cd452d5914656958f9a5c6699f.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 800,
           "rating": 4.7,
           "vegetarian": false,
           "cuisine": "Indian"
         },
         {
-          "name": "Chicken Tikka Masala",
-          "price": 900,
+          "name": "Gobi Tikka",
+          "image": "https://b.zmtcdn.com/data/dish_photos/add/4f046e43c556aaf97c46ff1e9553badd.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 220,
           "rating": 4.8,
-          "vegetarian": false,
+          "vegetarian": true,
           "cuisine": "Indian"
         },
         {
           "name": "Vegetable Fried Rice",
-          "price": 500,
+          "image": "https://b.zmtcdn.com/data/dish_photos/9c5/f958d6cb9c94e6b4a06adb77d1e379c5.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 200,
           "rating": 4.1,
           "vegetarian": true,
           "cuisine": "Chinese"
         },
         {
-          "name": "Chicken Biryani",
+          "name": "Chicken Fried Rice",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d16/a5d3b24c0f679f6d51f098a8f54d2d16.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 350,
           "rating": 4.6,
           "vegetarian": false,
@@ -252,7 +280,8 @@
         },
         {
           "name": "Chicken Tandoori",
-          "price": 700,
+          "image": "https://b.zmtcdn.com/data/dish_photos/e79/a26bc63197aaf3810c6f046ce37f4e79.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 400,
           "rating": 4.8,
           "vegetarian": false,
           "cuisine": "Indian"
@@ -271,6 +300,7 @@
       "menu": [
         {
           "name": "Belgian Chocolate Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7a3/53da40c5283b48f1e0558dd9c47387a3.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 150,
           "rating": 4.8,
           "vegetarian": true,
@@ -278,27 +308,31 @@
         },
         {
           "name": "Butterscotch Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b60/fb83c259d06257ebbe3a6323baba0b60.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 120,
           "rating": 4.6,
           "vegetarian": true,
           "cuisine": "Dessert"
         },
         {
-          "name": "Mango Sorbet",
+          "name": "Mango Flesta Ice Cream Cake",
+          "image": "https://b.zmtcdn.com/data/dish_photos/b69/a89a37076e5ebca1f720a54b8f5cbb69.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 130,
           "rating": 4.6,
           "vegetarian": true,
           "cuisine": "Dessert"
         },
         {
-          "name": "Strawberry Cheesecake Ice Cream",
+          "name": "Cotton Candy Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/1e7/04ddd3efed4541fd7b6a64d83ff621e7.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 170,
           "rating": 4.9,
           "vegetarian": true,
           "cuisine": "Dessert"
         },
         {
-          "name": "Alphonso Mango Ice Cream",
+          "name": "Black Forest Ice Cream",
+          "image": "https://b.zmtcdn.com/data/dish_photos/858/47d2d0fc8cb7ed35791e9c3a7ccf2858.png?fit=around|130:130&crop=130:130;*,*",
           "price": 140,
           "rating": 4.7,
           "vegetarian": true,
@@ -318,6 +352,7 @@
       "menu": [
         {
           "name": "Latte",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d03/9a5db9f3e8b62cf8b0d7d820684acd03.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 150,
           "rating": 4.7,
           "vegetarian": true,
@@ -325,27 +360,31 @@
         },
         {
           "name": "Cappuccino",
+          "image": "https://b.zmtcdn.com/data/dish_photos/63d/e439933617fafc7140b3b569e2cca63d.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 130,
           "rating": 4.6,
           "vegetarian": true,
           "cuisine": "Coffee"
         },
         {
-          "name": "Espresso",
-          "price": 100,
+          "name": "Iced Americano",
+          "image": "https://b.zmtcdn.com/data/dish_photos/9bb/f57083cd0b2e2f526ec7852d08e269bb.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 199,
           "rating": 4.3,
           "vegetarian": true,
           "cuisine": "Coffee"
         },
         {
-          "name": "Mocha",
+          "name": "Cruchy Frappe",
+          "image": "https://b.zmtcdn.com/data/dish_photos/ec8/25ca47512e8136ce4b8c1c4ebecbcec8.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 170,
           "rating": 4.8,
           "vegetarian": true,
           "cuisine": "Coffee"
         },
         {
-          "name": "Iced Coffee",
+          "name": "Cold Coffee",
+          "image": "https://b.zmtcdn.com/data/dish_photos/eba/3b10f50aa0638a4630acf0af72f93eba.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 120,
           "rating": 4.2,
           "vegetarian": true,
@@ -364,21 +403,24 @@
       "description": "Burger King is a renowned fast-food chain that serves a wide range of delicious burgers, fries, and beverages. Indulge in the flame-grilled goodness and experience the perfect combination of taste and convenience.",
       "menu": [
         {
-          "name": "Whopper",
+          "name": "Chicken Whopper",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d26/a26965652622288a755007b97ce09d26.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 250,
           "rating": 4.6,
           "vegetarian": false,
           "cuisine": "American"
         },
         {
-          "name": "Cheeseburger",
+          "name": "Chicken Cheeseburger",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d09/ce8d8273d235b8ed93e33ebdc0329d09.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 180,
           "rating": 4.3,
           "vegetarian": false,
           "cuisine": "American"
         },
         {
-          "name": "Bacon King",
+          "name": "Medium Fries",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f92/7888af1c9fd32e02c767301122718f92.png?fit=around|130:130&crop=130:130;*,*",
           "price": 320,
           "rating": 4.8,
           "vegetarian": false,
@@ -386,21 +428,24 @@
         },
         {
           "name": "Veggie Whopper",
+          "image": "https://b.zmtcdn.com/data/dish_photos/cc6/7982d2af03dece4b6f58a66ecb208cc6.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 220,
           "rating": 4.2,
           "vegetarian": true,
           "cuisine": "American"
         },
         {
-          "name": "Chicken Royale",
+          "name": "Paneer Royale Wrap",
+          "image": "https://b.zmtcdn.com/data/dish_photos/343/ac57be9fa688f3c2ac5833cd97bb3343.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 260,
           "rating": 4.6,
-          "vegetarian": false,
+          "vegetarian": true,
           "cuisine": "American"
         },
         {
-          "name": "Double Whopper",
-          "price": 350,
+          "name": "Mutton Whopper Combo",
+          "image": "https://b.zmtcdn.com/data/dish_photos/7ba/c08a4ca725bf366664d1c8b0801a27ba.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 550,
           "rating": 4.7,
           "vegetarian": false,
           "cuisine": "American"
@@ -417,36 +462,41 @@
       "description": "Foodie's Paradise is a haven for food lovers, offering a diverse menu of mouthwatering dishes from various cuisines. Explore a culinary journey with our flavorful creations and satisfy your cravings.",
       "menu": [
         {
-          "name": "Veggie Burger",
-          "price": 500,
+          "name": "Crispy Chilli Baby Corn Dry",
+          "image": "https://b.zmtcdn.com/data/dish_photos/918/084d4e1a692d7f9b43f7ad84bda20918.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 233,
           "rating": 4.6,
           "vegetarian": true,
-          "cuisine": "American"
-        },
-        {
-          "name": "Butter Chicken",
-          "price": 800,
-          "rating": 4.7,
-          "vegetarian": false,
           "cuisine": "Indian"
         },
         {
-          "name": "Margherita Pizza",
+          "name": "Smoky Chicken Burger",
+          "image": "https://b.zmtcdn.com/data/dish_photos/23d/400294170c4da33901832f0eb15e423d.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 523,
+          "rating": 4.7,
+          "vegetarian": false,
+          "cuisine": "American"
+        },
+        {
+          "name": "Veg Schezwan Fried Rice",
+          "image": "https://b.zmtcdn.com/data/dish_photos/675/9b722d9fcf9bf50536c1f5b2c4226675.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 600,
           "rating": 4.3,
           "vegetarian": true,
-          "cuisine": "Italian"
+          "cuisine": "Chinese"
         },
         {
-          "name": "Chicken Tikka Masala",
-          "price": 900,
+          "name": "Chicken Dollipop",
+          "image": "https://b.zmtcdn.com/data/dish_photos/76a/16ed38e421e5b53e1e8a036c5900376a.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 529,
           "rating": 4.8,
           "vegetarian": false,
           "cuisine": "Indian"
         },
         {
-          "name": "Pad Thai",
-          "price": 750,
+          "name": "Egg Thai Fried Rice",
+          "image": "https://b.zmtcdn.com/data/dish_photos/8e9/b6420d4688ca4b2d93c6f753db0d28e9.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 250,
           "rating": 4.2,
           "vegetarian": false,
           "cuisine": "Thai"
@@ -464,27 +514,39 @@
       "menu": [
         {
           "name": "Margherita Pizza",
+          "image": "https://b.zmtcdn.com/data/dish_photos/f47/db2fb46200a9d41110d7a552e4f69f47.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 600,
           "rating": 4.3,
           "vegetarian": true,
           "cuisine": "Italian"
         },
         {
-          "name": "Cheeseburger",
+          "name": "Veg Extravaganza Pizza",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d44/43825a33493d18fe5ac0b836de3ead44.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 350,
+          "rating": 3.4,
+          "vegetarian": true,
+          "cuisine": "Italian"
+        },
+        {
+          "name": "Caprese Gourmet Pizza",
+          "image": "https://b.zmtcdn.com/data/dish_photos/d36/d855aaf136f4637bddb6d79a4f512d36.jpg?fit=around|130:130&crop=130:130;*,*",
           "price": 550,
           "rating": 4.4,
           "vegetarian": false,
           "cuisine": "American"
         },
         {
-          "name": "Spaghetti Carbonara",
-          "price": 850,
+          "name": "Chicken Dominated Pizza",
+          "image": "https://b.zmtcdn.com/data/dish_photos/587/e49cb122543d7895346050a0c7528587.jpg?fit=around|130:130&crop=130:130;*,*",
+          "price": 629,
           "rating": 4.6,
           "vegetarian": false,
           "cuisine": "Italian"
         },
         {
-          "name": "Mushroom Risotto",
+          "name": "Cheesy",
+          "image": "https://b.zmtcdn.com/data/dish_photos/029/1337a0025935951df41d0d16b1b01029.png?fit=around|130:130&crop=130:130;*,*",
           "price": 650,
           "rating": 4.3,
           "vegetarian": true,
