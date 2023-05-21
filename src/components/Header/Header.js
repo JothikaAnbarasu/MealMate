@@ -6,7 +6,6 @@ import LoginModal from '../Modal/LoginModal';
 import SignUpModal from '../Modal/SignUpModal';
 import { useNavbarContext } from '../../context/navbar_context';
 import { useCartContext } from '../../context/cart_context';
-import logoImg from '../../assets/logoImg.png'
 
 function Header() {
   const { openSidebar, isLoginModalOpen, isSignUpModalOpen, Login, SignUp } = useNavbarContext();
