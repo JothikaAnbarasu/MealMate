@@ -7,9 +7,8 @@ const restaurants_reducer = (state, action) => {
   }
 
   if (action.type === "get_single_restaurant_menu") {
-    const restaurantName = action.payload;
     const allRestaurants = [...state.restaurants];
-    const singleRestaurant = { ...allRestaurants.filter((r) => r.name === restaurantName)[0] }
+    const singleRestaurant = { ...allRestaurants.filter((r) => r.name === action.payload)[0] }
     return { ...state, singleRestaurant }
   }
 

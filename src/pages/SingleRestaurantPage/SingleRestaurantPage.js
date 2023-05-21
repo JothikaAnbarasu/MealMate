@@ -8,10 +8,11 @@ import MenuCard from '../../components/MenuCard/MenuCard';
 
 function SingleRestaurantPage() {
   const { name } = useParams();
-  const { getSingleRestaurantMenu, restaurants, singleRestaurant } = useRestaurantsContext();
+  const { getSingleRestaurantMenu, singleRestaurant, restaurants } = useRestaurantsContext();
 
   useEffect(() => {
     getSingleRestaurantMenu(`${name}`);
+    // eslint-disable-next-line
   }, [name, restaurants])
 
   return (
@@ -19,7 +20,7 @@ function SingleRestaurantPage() {
       <PageHero menuItems title={name} />
       <div className="single-restaurant-details">
         <div className="single-res-image-wrapper">
-          <img className='single-res-image' src={singleRestaurant.image} alt='restaurant image' />
+          <img className='single-res-image' src={singleRestaurant.image} alt='restaurant' />
           <div className="res-rating single-res-rating">
             {singleRestaurant.rating} {< TiStar />}
           </div>
@@ -47,6 +48,7 @@ function SingleRestaurantPage() {
 
     </div>
   )
+
 }
 
 export default SingleRestaurantPage

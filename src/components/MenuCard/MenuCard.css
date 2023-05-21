@@ -10,12 +10,9 @@
 }
 
 .menuCard-content-wrapper {
-}
-
-.menuCard-content-wrapper {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   flex-basis: 30%;
   margin-left: 40px;

@@ -21,7 +21,7 @@
 }
 
 .about-page-service {
-  padding: 5%;
+  padding: 8%;
   background-color: rgb(232, 245, 253);
   margin-bottom: 20px;
   border-radius: 60px;
@@ -62,5 +62,13 @@
 
   .about-page-footer h2 {
     font-size: 1.7rem;
+  }
+
+  .about-page-services-wrapper .about-page-service:nth-child(odd) {
+    margin-right: 10%;
+  }
+
+  .about-page-services-wrapper .about-page-service:nth-child(even) {
+    margin-left: 10%;
   }
 }
