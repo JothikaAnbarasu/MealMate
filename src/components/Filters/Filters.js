@@ -3,7 +3,6 @@ import './Filters.css'
 import { CiSliderHorizontal } from 'react-icons/ci'
 import { FaTimes } from 'react-icons/fa'
 import { useFilterContext } from '../../context/filter_context'
-import { FaSearch } from 'react-icons/fa'
 
 function Filters() {
 

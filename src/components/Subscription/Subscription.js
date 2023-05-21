@@ -7,7 +7,7 @@ function Subscription() {
   return (
     <div className='subscription'>
       <div className="subscription-img">
-        <img src={subscribeImg} alt="subscribe image" />
+        <img src={subscribeImg} alt="subscribe" />
       </div>
       <div className="subscription-content">
         <h1>Get the menu of your favorite restaurants every day</h1>

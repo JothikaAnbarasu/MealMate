@@ -11,7 +11,7 @@ function FoodVarieties() {
         {foodVarietiesImages.map((foodImg, index) => {
           return (
             <div key={index} >
-              <img src={foodImg} style={{ width: "144px", height: "180px" }} />
+              <img src={foodImg} style={{ width: "144px", height: "180px" }} alt='food' />
             </div>
           )
         })}

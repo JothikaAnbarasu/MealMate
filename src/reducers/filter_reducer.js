@@ -46,7 +46,7 @@ const filter_reducer = (state, action) => {
 
     if (cuisine !== 'All') {
       tempRestaurants = tempRestaurants.filter((r) => {
-        return r.menu.some((obj) => obj.cuisine == cuisine)
+        return r.menu.some((obj) => obj.cuisine === cuisine)
       })
     }
 

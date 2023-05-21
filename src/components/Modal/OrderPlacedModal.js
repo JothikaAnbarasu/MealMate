@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react'
+import React from 'react'
 import './Modal.css'
 import { FaTimesCircle } from 'react-icons/fa'
 import { useCartContext } from '../../context/cart_context'

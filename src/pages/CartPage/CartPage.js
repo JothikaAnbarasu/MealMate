@@ -16,7 +16,7 @@ function CartPage() {
       {cart.length < 1 ?
         <div className='cart-empty-container'>
           <div>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzibBVD9w_go7Ofo5BK44_ufJf_y7qQAoPKg&usqp=CAU' />
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzibBVD9w_go7Ofo5BK44_ufJf_y7qQAoPKg&usqp=CAU' alt='cart-empty' />
           </div>
           <div>
             <p>You can go to meals page to view more restaurants</p>
