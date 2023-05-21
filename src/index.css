@@ -41,6 +41,7 @@ a {
   text-decoration: none;
   color: grey;
 }
+
 hr {
   border: none;
   border-top: 1px solid var(--clr-grey-8);
@@ -78,6 +79,14 @@ p {
 
 button {
   cursor: pointer;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media screen and (min-width: 800px) {
