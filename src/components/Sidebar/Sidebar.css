@@ -51,7 +51,7 @@
   padding: 1.4rem;
   text-align: center;
   font-size: 1.2rem;
-  width: 100%;
+  width: 100vw;
   color: black;
   transition: all 0.2s linear;
 }

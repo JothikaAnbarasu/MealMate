@@ -22,20 +22,20 @@ function Sidebar() {
         </div>
         <div className="sidebar-links-container">
           <div className="sidebar-links-wrapper">
-            <div >
-              <Link to='/' onClick={closeSidebar}>Home</Link>
-            </div>
-            <div>
-              <Link to='/about' onClick={closeSidebar}>About Us</Link>
-            </div>
-            <div>
-              <Link to='/meals' onClick={closeSidebar}>Meals</Link>
-            </div>
-            <div  >
-              <Link to='/cart' onClick={closeSidebar}>
-                Cart
-              </Link>
-            </div>
+
+            <Link to='/' onClick={closeSidebar}><div>Home</div></Link>
+
+
+            <Link to='/about' onClick={closeSidebar}><div>About Us</div></Link>
+
+
+            <Link to='/meals' onClick={closeSidebar}><div>Meals</div></Link>
+
+
+            <Link to='/cart' onClick={closeSidebar}>
+              <div>Cart</div>
+            </Link>
+
             <div>
               <Link to='/'>
                 <button className='login-btn' onClick={Login}>Login</button>
