@@ -23,9 +23,10 @@
     margin: 0;
     text-align: center;
   }
-  > img {
-    border-radius: 8px;
-  }
+}
+
+.cartItem-img-wrapper img {
+  border-radius: 8px;
 }
 
 .cartItem-del-btn {
