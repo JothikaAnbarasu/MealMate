@@ -11,7 +11,7 @@ function Header() {
   const { openSidebar, isLoginModalOpen, isSignUpModalOpen, Login, SignUp } = useNavbarContext();
   const { total_items } = useCartContext();
   return (
-    <div className='header'>
+    <div className='header' id='header-section'>
       {isLoginModalOpen && <LoginModal />}
       {isSignUpModalOpen && <SignUpModal />}
       <div className="header-container">

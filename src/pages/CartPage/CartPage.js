@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './CartPage.css'
 import PageHero from '../../components/PageHero/PageHero'
 import CartContent from '../../components/CartContent/CartContent';

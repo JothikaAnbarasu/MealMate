@@ -7,14 +7,14 @@ function Footer() {
     <div className='footer'>
       <div className="footer-container">
         <div className="footer-logo-section">
-          <a href='#'>
+          <a href='#header-section'>
             <h2 className="footer-logo"><span style={{ color: "white" }}>Meal</span><span style={{ color: "rgb(242, 159, 5)" }}>Mate</span></h2>
           </a>
           <h3 style={{ color: "whitesmoke", marginBottom: "20px", letterSpacing: "none" }}>Delicious food, delivered to your door !</h3>
           <div className='footer-icons'>
-            <a href='#'><button className="footer-icons-btn"><FaFacebookF /></button></a>
-            <a href='#'> <button className="footer-icons-btn"><FaInstagram /></button></a>
-            <a href='#'> <button className="footer-icons-btn"><FaTwitter /></button></a>
+            <a href='#header-section'><button className="footer-icons-btn"><FaFacebookF /></button></a>
+            <a href='#header-section'> <button className="footer-icons-btn"><FaInstagram /></button></a>
+            <a href='#header-section'> <button className="footer-icons-btn"><FaTwitter /></button></a>
           </div>
         </div>
         <div className="footer-contactUs">
