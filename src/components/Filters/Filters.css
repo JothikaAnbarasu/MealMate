@@ -29,9 +29,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  > svg {
-    color: var(--clr-grey-5);
-  }
+}
+.filter-outline svg {
+  color: var(--clr-grey-5);
 }
 
 .filters-container div {
@@ -47,13 +47,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  > svg {
-    font-size: larger;
-    font-weight: bolder;
-    color: black;
-  }
 }
 
+.filters svg {
+  font-size: larger;
+  font-weight: bolder;
+  color: black;
+}
 .filter-value {
   background-color: var(--clr-primary-1);
   color: white;
