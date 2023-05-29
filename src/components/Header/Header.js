@@ -46,7 +46,7 @@ function Header() {
             <li>
               <button className='login-btn' onClick={Login}>Login</button>
             </li>
-            <li>
+            <li style={{ paddingRight: "0" }}>
               <button className='signUp-btn' onClick={SignUp}>Sign Up</button>
             </li>
           </ul>

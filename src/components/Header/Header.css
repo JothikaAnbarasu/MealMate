@@ -9,7 +9,7 @@
 }
 
 .header-logo-wrapper {
-  padding-left: 20px;
+  padding-left: 30px;
   margin-top: 6px;
 }
 
@@ -19,7 +19,7 @@
 
 .header-menu li {
   padding-right: 38px;
-  font-size: large;
+  font-size: 17px;
 }
 
 .header-menu li :hover,
@@ -31,7 +31,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-right: 20px;
 }
 
 .header-cart-btns li {
@@ -70,7 +69,7 @@
   color: var(--clr-primary-1);
   height: max-content;
   padding: 8px 14px;
-  font-size: large;
+  font-size: 20px;
 }
 
 .signUp-btn {
@@ -80,7 +79,7 @@
   color: white;
   height: max-content;
   padding: 8px 14px;
-  font-size: large;
+  font-size: 20px;
 }
 
 .login-btn:hover {
@@ -110,7 +109,7 @@
     border: transparent;
     color: var(--clr-primary-5);
     cursor: pointer;
-    margin-right: 15px;
+    margin-bottom: 12px;
   }
 
   .nav-toggle svg {
