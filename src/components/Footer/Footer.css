@@ -107,13 +107,17 @@
     grid-row: 2;
   }
 
-  .footer-contactUs,
-  .footer-company,
-  .footer-legal {
-    justify-content: space-between;
-  }
-
   .copyrights-div {
     padding: 1% 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-h5 {
+    height: 35px;
+  }
+
+  .footer-ul li {
+    height: 44px;
   }
 }

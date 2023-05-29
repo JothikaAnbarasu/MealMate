@@ -18,8 +18,8 @@ function Footer() {
           </div>
         </div>
         <div className="footer-contactUs">
-          <h5>Contact us</h5>
-          <ul>
+          <h5 className='footer-h5'>Contact us</h5>
+          <ul className='footer-ul'>
             <li>Help & Support</li>
             <li>Partner with us</li>
             <li>Ride with us</li>
@@ -27,16 +27,16 @@ function Footer() {
 
         </div>
         <div className="footer-company">
-          <h5>Company</h5>
-          <ul>
+          <h5 className='footer-h5'>Company</h5>
+          <ul className='footer-ul'>
             <li>About</li>
             <li>Careers</li>
             <li>Team</li>
           </ul>
         </div>
         <div className="footer-legal">
-          <h5>Legal</h5>
-          <ul>
+          <h5 className='footer-h5'>Legal</h5>
+          <ul className='footer-ul'>
             <li>Terms & condtions</li>
             <li>Cookie Policy</li>
             <li>Privacy Policy</li>
