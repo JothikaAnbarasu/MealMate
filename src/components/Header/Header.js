@@ -38,7 +38,7 @@ function Header() {
           </ul>
         </div>
         <div className="header-cart-btns">
-          <ul>
+          <ul style={{ marginRight: "20px" }}>
             <li style={{ paddingTop: "14px" }}>
               <Link to='/cart' className='header-cart-icon'> <FaShoppingCart />
                 <span className='header-cart-value'>{total_items}</span></Link>

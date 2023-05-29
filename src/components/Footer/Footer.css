@@ -77,6 +77,10 @@
   color: #f5f5dc;
 }
 
+.footer-logo-section {
+  margin-right: 12px;
+}
+
 @media screen and (max-width: 720px) {
   .footer-container {
     grid-template-columns: repeat(3, 1fr);
