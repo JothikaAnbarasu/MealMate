@@ -18,7 +18,7 @@ const Stars = ({ stars }) => {
   })
 
   return <div className='stars-wrapper'>
-    <div className="stars">
+    <div className="stars" >
       {tempStars}
     </div>
   </div>

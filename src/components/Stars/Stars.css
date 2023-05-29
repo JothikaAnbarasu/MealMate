@@ -1,10 +1,5 @@
 .stars {
   display: flex;
   align-items: center;
-}
-
-.stars .span {
   color: rgb(255, 185, 0);
-  font-size: 1rem;
-  margin-right: 0.25rem;
 }

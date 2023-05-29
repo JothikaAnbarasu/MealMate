@@ -23,7 +23,7 @@ function Filters() {
   return (
     <div className='filters-container'>
 
-      <div className="search-bar">
+      <div className="search-bar" >
         <input
           type='search'
           name='text'
@@ -34,34 +34,39 @@ function Filters() {
         />
       </div>
 
-      <div className="filters filter-outline" style={{ background: filtersValue > 0 ? "rgb(208,208,208)" : "none" }} >
+      <div className="filters filter-outline" style={{ background: filtersValue > 0 ? "rgb(208,208,208)" : "none", width: "120px" }} >
         {filtersValue > 0 && <span className='filter-value'>{filtersValue}</span>} Filters <CiSliderHorizontal />
       </div>
 
       <div className={`${ratings ? "filter-outline filter-selected " : "filter-outline "}`}
+        style={{ width: "140px" }}
         onClick={() => {
           updateFilters("ratings");
         }}>
-        Ratings 4.5+
-        {ratings && <FaTimes />}
+
+        Ratings 4.5+ {ratings && <FaTimes />}
       </div>
 
       <div className={`${veg ? "filter-outline filter-selected " : "filter-outline "}`}
+        style={{ width: "120px" }}
         onClick={() => updateFilters("veg")}>
         Pure veg {veg && <FaTimes />}
       </div>
 
       <div className={`${fastDelivery ? "filter-outline filter-selected " : "filter-outline "}`}
+        style={{ width: "140px" }}
         onClick={() => updateFilters("fastDelivery")}>
         Fast delivery{fastDelivery && <FaTimes />}
       </div>
 
       <div className={`${offer ? "filter-outline filter-selected " : "filter-outline "}`}
+        style={{ width: "100px" }}
         onClick={() => updateFilters("offer")}>
         Offers  {offer && <FaTimes />}
       </div>
 
-      <div className={`${isCuisineSelected ? "filter-outline filter-selected " : "filter-outline "}`}>
+      <div className={`${isCuisineSelected ? "filter-outline filter-selected " : "filter-outline "}`}
+        style={{ width: "200px" }}>
 
         <label htmlFor="cuisine-select">Cuisine </label>
         <select id="cuisine-select" name="cuisine" onChange={handleCuisineChange}>

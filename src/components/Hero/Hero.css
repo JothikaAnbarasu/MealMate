@@ -48,10 +48,11 @@
   }
   .hero-img img {
     height: 320px;
-    width: 300px;
+    width: 500px;
   }
   .hero-content {
     padding: 5%;
+    padding-top: 38px;
   }
   .hero-container {
     flex-direction: column;
@@ -66,5 +67,12 @@
 
   .hero {
     margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .hero-img img {
+    height: 220px;
+    width: 300px;
   }
 }

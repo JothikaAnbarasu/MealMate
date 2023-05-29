@@ -22,7 +22,7 @@ const filter_reducer = (state, action) => {
 
     if (text) {
       tempRestaurants = tempRestaurants.filter((r) => {
-        return r.name.toLowerCase().startsWith(text)
+        return r.name.toLowerCase().startsWith(text.toLowerCase())
       })
     }
 

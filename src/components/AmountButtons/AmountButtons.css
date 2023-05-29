@@ -12,4 +12,6 @@
 
 .cart-amount {
   font-size: xx-large;
+  width: 38px;
+  text-align: center;
 }
