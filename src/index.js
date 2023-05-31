@@ -10,17 +10,18 @@ import AOSInitializer from './helpers/AosInitializer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <AOSInitializer>
-    <RestaurantsProvider>
-      <FilterProvider>
-        <CartProvider>
-          <NavbarProvider>
+
+  <RestaurantsProvider>
+    <FilterProvider>
+      <CartProvider>
+        <NavbarProvider>
+          <AOSInitializer>
             <App />
-          </NavbarProvider>
-        </CartProvider>
-      </FilterProvider>
-    </RestaurantsProvider>
-  </AOSInitializer>
+          </AOSInitializer>
+        </NavbarProvider>
+      </CartProvider>
+    </FilterProvider>
+  </RestaurantsProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
