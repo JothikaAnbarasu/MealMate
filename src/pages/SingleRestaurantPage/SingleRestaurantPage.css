@@ -23,7 +23,7 @@
 }
 .single-res-rating {
   position: absolute;
-  top: 12px;
+  top: 10px;
   right: 10px;
   padding: 12px;
   border-radius: 14px;
@@ -49,6 +49,7 @@
 
 @media screen and (max-width: 600px) {
   .single-res-image {
+    height: 200px;
     width: 300px;
     border-radius: 0;
   }

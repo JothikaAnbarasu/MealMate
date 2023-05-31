@@ -10,6 +10,7 @@ import Sidebar from './components/Sidebar/Sidebar';
 import Footer from './components/Footer/Footer'
 import RestaurantMenuItems from './pages/SingleRestaurantPage/SingleRestaurantPage';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import ScrollToTop from './helpers/ScrollToTop';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Header />
         <Sidebar />
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/meals' element={<MealsPage />} />

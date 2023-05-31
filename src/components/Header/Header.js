@@ -10,6 +10,7 @@ import { useCartContext } from '../../context/cart_context';
 function Header() {
   const { openSidebar, isLoginModalOpen, isSignUpModalOpen, Login, SignUp } = useNavbarContext();
   const { total_items } = useCartContext();
+
   return (
     <div className='header' id='header-section'>
       {isLoginModalOpen && <LoginModal />}
@@ -18,7 +19,9 @@ function Header() {
         <div className="header-logo-wrapper">
           <Link to='/'>
             <h2 className="logo">
-              <span style={{ color: "black" }}>Meal</span><span style={{ color: "rgb(242, 159, 5)" }}>Mate</span></h2>
+              <span style={{ color: "black", '--i': 1 }}>Meal</span><span style={{ color: "rgb(242, 159, 5)" }}>Mate</span>
+            </h2>
+
           </Link>
           <button type="button" className="nav-toggle" onClick={openSidebar}>
             <FaBars />
@@ -53,6 +56,7 @@ function Header() {
 
         </div>
       </div>
+
       <hr style={{ width: "100vw" }} />
     </div >
   )

@@ -39,7 +39,7 @@ function SingleRestaurantPage() {
         <div className="single-res-page-menu-heading">
           <h2 style={{ color: "rgb(226,55,69)" }}>Discover Our Delectable Menu!</h2>
         </div>
-        <div className="single-res-page-menucards-wrapper">
+        <div className="single-res-page-menucards-wrapper" >
           {singleRestaurant.menu && singleRestaurant.menu.map((item, index) => {
             return (<MenuCard item={item} key={index} restaurantName={name} />)
           })}
