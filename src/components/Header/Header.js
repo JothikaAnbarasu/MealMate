@@ -32,7 +32,7 @@ function Header() {
             <li>
               <Link to='/about'>About Us</Link>
             </li>
-            <li>
+            <li style={{ paddingRight: "0" }}>
               <Link to='/meals'>Meals</Link>
             </li>
           </ul>

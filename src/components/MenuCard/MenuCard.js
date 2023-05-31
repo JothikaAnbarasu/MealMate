@@ -5,9 +5,11 @@ import { GoPrimitiveDot } from 'react-icons/go'
 import Stars from '../Stars/Stars'
 import AddToCart from '../AddToCart/AddToCart'
 
+
 function MenuCard({ item, restaurantName }) {
+
   return (
-    <div className='menuCard'>
+    <div className='menuCard' data-aos="fade-right" >
 
       <div className="menuCard-image-wrapper">
         <img src={item.image} alt={item.name} />

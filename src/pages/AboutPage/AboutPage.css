@@ -10,8 +10,9 @@
 .about-page-title {
   font-style: italic;
   font-weight: bolder;
-  padding: 10%;
-  padding-top: 0;
+  font-size: 4rem;
+  padding: 12%;
+  padding-top: 2%;
 }
 .about-page-title img {
   float: right;
@@ -21,7 +22,7 @@
 }
 
 .about-page-service {
-  padding: 8%;
+  padding: 5%;
   background-color: rgb(232, 245, 253);
   margin-bottom: 20px;
   border-radius: 60px;
@@ -49,15 +50,18 @@
   .about-page-title {
     padding: 0;
     margin-bottom: 40px;
-
-    > h1 {
-      font-size: 2rem;
-    }
+  }
+  .about-page-title h1 {
+    font-size: 2rem;
   }
 
   .about-page-title img {
     height: 200px;
     width: 250px;
+  }
+
+  .about-page-service {
+    padding: 8%;
   }
 
   .about-page-footer h2 {

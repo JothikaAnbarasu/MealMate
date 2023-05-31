@@ -3,13 +3,16 @@ import './Subscription.css'
 import subscribeImg from '../../assets/subscription.png'
 import { FaBell } from 'react-icons/fa'
 
+
 function Subscription() {
+
+
   return (
     <div className='subscription'>
-      <div className="subscription-img">
+      <div className="subscription-img" data-aos="slide-right">
         <img src={subscribeImg} alt="subscribe" />
       </div>
-      <div className="subscription-content">
+      <div className="subscription-content" data-aos='slide-left'>
         <h1>Get the menu of your favorite restaurants every day</h1>
         <form className='subscription-form'>
           <input

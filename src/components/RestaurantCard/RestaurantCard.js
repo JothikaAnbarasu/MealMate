@@ -6,10 +6,12 @@ import { BsFilterRight } from 'react-icons/bs'
 import { GoPrimitiveDot } from 'react-icons/go'
 import { Link } from 'react-router-dom'
 
+
 function RestaurantCard({ restaurantCuisines, restaurant }) {
 
+
   return (
-    <Link to={`/meals/${restaurant.name}`} >
+    <Link to={`/meals/${restaurant.name}`} data-aos="fade-up">
 
       <div className='restaurantCard'>
 
