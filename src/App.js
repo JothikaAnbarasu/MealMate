@@ -11,7 +11,7 @@ import Footer from './components/Footer/Footer'
 import RestaurantMenuItems from './pages/SingleRestaurantPage/SingleRestaurantPage';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 import ScrollToTop from './helpers/ScrollToTop';
-
+import ScrollTopBtn from './components/ScrollTopBtn/ScrollTopBtn'
 function App() {
   return (
     <div className="app">
@@ -27,6 +27,7 @@ function App() {
           <Route path='/about' element={<AboutPage />} />
           <Route path='*' element={<PageNotFound />} />
         </Routes>
+        <ScrollTopBtn />
         <Footer />
       </Router>
     </div>

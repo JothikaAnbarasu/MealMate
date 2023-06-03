@@ -1,0 +1,16 @@
+.scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: var(--clr-primary-1);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.scrollTopBtn:hover {
+  background-color: rgb(204, 123, 11);
+}
