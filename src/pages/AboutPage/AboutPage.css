@@ -10,8 +10,7 @@
 .about-page-title {
   font-style: italic;
   font-weight: bolder;
-  padding: 12%;
-  padding-top: 3%;
+  padding: 3% 10% 6% 10%;
 }
 
 .about-page-title h1 {
@@ -19,9 +18,8 @@
 }
 .about-page-title img {
   float: right;
-  border-radius: 60px;
-  border: 2px powderblue solid;
-  padding: 10px;
+  height: 300px;
+  width: 400px;
 }
 
 .about-page-service {

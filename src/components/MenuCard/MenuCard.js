@@ -9,7 +9,7 @@ import AddToCart from '../AddToCart/AddToCart'
 function MenuCard({ item, restaurantName }) {
 
   return (
-    <div className='menuCard' data-aos="fade-right" >
+    <div className='menuCard' data-aos="fade-right" data-aos-duration="600" data-aos-offset="10">
 
       <div className="menuCard-image-wrapper">
         <img src={item.image} alt={item.name} />

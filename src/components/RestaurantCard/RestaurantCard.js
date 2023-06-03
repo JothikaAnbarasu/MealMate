@@ -11,7 +11,7 @@ function RestaurantCard({ restaurantCuisines, restaurant }) {
 
 
   return (
-    <Link to={`/meals/${restaurant.name}`} data-aos="fade-up">
+    <Link to={`/meals/${restaurant.name}`} data-aos="fade-up" data-aos-offset="15">
 
       <div className='restaurantCard'>
 
