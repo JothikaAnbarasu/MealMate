@@ -41,6 +41,7 @@
   left: 0;
   right: 0;
   padding: 10px;
+  z-index: 555;
 }
 
 .add-to-cart-modal p {

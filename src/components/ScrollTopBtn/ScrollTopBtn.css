@@ -14,3 +14,10 @@
 .scrollTopBtn:hover {
   background-color: rgb(204, 123, 11);
 }
+
+@media screen and (max-width: 400px) {
+  .scrollTopBtn {
+    right: 15px;
+    bottom: 15px;
+  }
+}
