@@ -9,9 +9,9 @@ function LoginModal() {
   const { closeModal, SignUp } = useNavbarContext();
 
   return (
-    <div className='loginModal'>
+    <div className='loginModal' >
       <div className='modal-background' onClick={closeModal}>
-        <div className="modal-container" onClick={(event) => event.stopPropagation()}>
+        <div className="modal-container" data-aos="zoom-in-up" data-aos-duration="500" onClick={(event) => event.stopPropagation()}>
           <div className="modal-title">
             <h4>Login</h4>
             <span onClick={closeModal}><FaTimesCircle /></span>

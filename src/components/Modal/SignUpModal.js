@@ -10,7 +10,7 @@ function SignUpModal() {
   return (
     <div className='signUpModal'>
       <div className="modal-background" onClick={closeModal}>
-        <div className="modal-container" onClick={(event) => event.stopPropagation()}>
+        <div className="modal-container" data-aos="zoom-in-up" data-aos-duration="500" onClick={(event) => event.stopPropagation()}>
           <div className="modal-title">
             <h4>Sign up</h4>
             <span onClick={closeModal}><FaTimesCircle /></span>

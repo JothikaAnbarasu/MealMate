@@ -9,9 +9,10 @@ function AboutPage() {
       <PageHero title=' About Us' />
       <div className="about-page-content-container">
         <div className="about-page-title">
-          <h1 >
-            <img src={aboutPageAnimatedImg} alt='Food' />
-            Nothing to worry about with Meal<span style={{ color: "rgb(242, 159, 5)" }}>Mate</span>...</h1>
+
+          <img src={aboutPageAnimatedImg} alt='Food' data-aos="fade-down" />
+
+          <h1 data-aos="slide-up"> Nothing to worry about with Meal<span style={{ color: "rgb(242, 159, 5)" }}>Mate</span>...</h1>
         </div>
 
         <div className="about-page-services-wrapper" >

@@ -9,7 +9,7 @@ function OrderPlacedModal() {
 
   return (
     <div className='modal-background' onClick={closeOrderPlacedModal}>
-      <div className="modal-container orderPlacedModal-container" onClick={(event) => event.stopPropagation()}>
+      <div className="modal-container orderPlacedModal-container" data-aos="flip-left" data-aos-duration="700" onClick={(event) => event.stopPropagation()}>
 
         <div className='modal-title'>
           <div></div>

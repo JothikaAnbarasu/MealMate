@@ -16,7 +16,7 @@ function CartContent() {
           return <CartItem item={item} key={index} />
         })}
       </div>
-      <div className="order-total">
+      <div className="order-total" data-aos="slide-left" data-aos-duration="500">
         <div>
           <h4>Order Total:
             <span className='price' style={{ fontSize: "medium", color: 'green' }}>
