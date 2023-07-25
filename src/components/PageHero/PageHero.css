@@ -8,6 +8,10 @@
   color: gray;
 }
 
+.pagehero a{
+color:#272727;
+}
+
 .pagehero a:hover {
   color: white;
 }

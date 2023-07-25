@@ -22,6 +22,10 @@
   font-size: 17px;
 }
 
+.header-menu  a {
+  color: #272727;
+}
+
 .header-menu li :hover,
 .header-menu li :visited {
   border-bottom: 3px var(--clr-primary-1) solid;
@@ -94,20 +98,6 @@
   display: none;
 }
 
-.logo span {
-  animation: wave 2s infinite;
-  animation-delay: calc(0.1s * var(--i));
-}
-@keyframes wave {
-  0%,
-  40%,
-  100% {
-    transform: translateY(0);
-  }
-  20% {
-    transform: translateY(-20px);
-  }
-}
 
 @media screen and (max-width: 794px) {
   .header-logo-wrapper {
