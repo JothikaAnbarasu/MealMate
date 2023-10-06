@@ -13,7 +13,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  margin: 0 40px;
+  margin: 0 28px;
 }
 
 .howItWorks-contents div {
@@ -43,6 +43,7 @@
     padding: 0;
   }
 }
+
 @media screen and (min-width: 601px) and (max-width: 880px) {
   .howItWorks-contents div {
     flex-basis: 33.33%;
